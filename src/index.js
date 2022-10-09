@@ -1,0 +1,11 @@
+import "./sass/main.scss";
+import logo from "./assets/logo.png";
+const cursorLogo = document.getElementById("cursorLogo");
+cursorLogo.src = logo;
+const hwTwo = require("./js/hw2");
+const hwThree = require("./js/hw3");
+const hwFour = require("./js/hw4");
+const hwFive = require("./js/hw5");
+const hwSux = require("./js/hw6");
+const hwEight = require("./js/hw8");
+const hwTen = require("./js/hw10");
