@@ -3,6 +3,7 @@ let maxInner;
 let minNumber;
 let maxNumber;
 let count = 0;
+
 do {
     minInner = Math.floor(prompt("Введіть мінімальне число (N)"));
     minNumber = minInner;
@@ -18,9 +19,7 @@ do {
         alert("ВВЕДІТЬ ЧИСЛО!!!");
     }
 } while (Number.isFinite(maxNumber) === false);
-
-let evenOdd = confirm("Пропускати Парні Числа ?");
-
+let evenOdd = (evenOdd = confirm("Пропускати Парні Числа ?"));
 for (minNumber; minNumber <= maxNumber; minNumber++) {
     let remainder = minNumber % 2;
     if (remainder === 1 && evenOdd === true) {
